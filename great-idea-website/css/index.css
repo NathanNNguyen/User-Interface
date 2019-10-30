@@ -91,10 +91,7 @@ nav a {
 }
 
 .header {
-	display: inline-block;
-	margin-left: 130px;
-	margin-top: 60px;
-	margin-bottom: 60px;
+	margin: 120px 65px 60px 65px;
 }
 
 .hero {
@@ -114,9 +111,16 @@ h1 {
 	text-align: center;
 }
 
-.image {
+.hero-text {
 	display: inline-block;
-    margin-left: 100px;
+	width: 49%;
+	vertical-align: top;
+} 
+
+.hero-image {
+	display: inline-block;
+	width: 49%;
+	margin-left: 15px;
     margin-top: 60px;
     margin-bottom: 60px;
 }
